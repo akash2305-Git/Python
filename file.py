@@ -1,3 +1,4 @@
-file1 = open("myfile.txt")  # this command is used to open file
+file1 = open("myfile.txt")
 print(file1.read())
-close(file1)
+file1.close()
+
